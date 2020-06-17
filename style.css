@@ -1,0 +1,35 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.game {
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 200px);
+}
+
+#matrix
+{
+	width: 400px;
+	height: 400px;
+	background-color: #ffffff;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;	
+}
+
+#matrix .cell
+{
+	float: left;
+	width: 9px;
+	height: 9px;	
+	border-bottom: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;	
+}
+
+.target {
+  background-color: #fa12a9;
+}
+
+.active {
+  background-color: #1271ca;
+}
